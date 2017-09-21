@@ -86,7 +86,54 @@
 
 
 .logo{
-	width: 20%;
+	max-width: 150px;
 	padding: 0;
 	margin: 0;
+}
+
+
+article{
+	color: #f26f5f;
+}
+
+.center{
+	text-align: center;
+}
+
+.logo_center{
+	width: 60%;
+}
+
+div .space{
+	height: 30px;
+	width: 100%;
+}
+
+.button{
+	border: solid 2px #f26f5f;
+	padding: 1.5%;
+	border-radius: 10px;
+	color: #f26f5f;
+}
+
+.button:hover{
+	padding: 1.5%;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #f26f5f;
+	text-decoration: none;
+}
+
+
+.button:active, .button::before{
+	padding: 1.5%;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #f26f5f;
+	text-decoration: none;
+}
+
+*::selection{
+	background-color: #f26f5f;
+	color: white;
 }
