@@ -7,4 +7,8 @@ class MainController < ApplicationController
 
   def contact
   end
+
+  def form
+  end
+
 end
