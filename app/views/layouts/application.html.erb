@@ -52,9 +52,25 @@
     <ul class="nav navbar-nav">
       </li>
     </ul>
+
+    <ul class="nav navbar-var navbar-left">
+      <li class="nav-item">
+        <a href="<%= main_about_path %>" class="link">
+          About
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="<%= main_contact_path %>" class="link">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
-        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">EN <b class="caret"></b></a>
+        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">EN<b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="javascript:void(0)">ES</a></li>
         </ul>
@@ -65,12 +81,6 @@
 
 
     <article>
-    <div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
       <div class="container"><%= yield %></div>
     </article>
 
